@@ -1,6 +1,6 @@
 tmp/
-result/
-
+result/*
+!result/.gitkeep
 
 
 # Byte-compiled / optimized / DLL files
