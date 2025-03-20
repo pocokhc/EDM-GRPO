@@ -1,14 +1,14 @@
 # EDM-GRPO
 
-EDMで学習したMNISTをGRPOで教師ありファインチューニングするコードです。
-Qiita用のコードとなります。
-
-[記事]()
-
+EDMで学習したMNISTをGRPOで教師ありファインチューニングするコードです。  
+Qiita用のコードとなります。  
+  
+[拡散モデルにGRPOを使ってファインチューニングしてみた](https://qiita.com/pocokhc/items/237175b31258968877a8)  
+  
 
 # 論文
-EDM（Elucidated Diffusion Model）: https://arxiv.org/abs/2206.00364
-GRPO（Group Relative Policy Optimization）：https://arxiv.org/abs/2402.03300
+EDM（Elucidated Diffusion Model）: https://arxiv.org/abs/2206.00364  
+GRPO（Group Relative Policy Optimization）：https://arxiv.org/abs/2402.03300  
 
 
 # 使用方法
@@ -46,6 +46,6 @@ GRPO（Group Relative Policy Optimization）：https://arxiv.org/abs/2402.03300
 
 # Development Version
 
-Python : 3.13.2
-Tensorflow : 2.18.0
+Python : 3.13.2  
+Tensorflow : 2.18.0  
 
