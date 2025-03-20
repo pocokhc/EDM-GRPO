@@ -26,8 +26,7 @@ class FourierFeatures(keras.layers.Layer):
         super().build(input_shape)
 
     def call(self, inputs: tf.Tensor) -> tf.Tensor:
-        if len(inputs.shape) > 1:
-            inputs = tf.squeeze(inputs)
+        inputs = tf.reshape(inputs, [-1])  # Flatten the inputs to handle any shape
         f = 2.0 * math.pi * tf.expand_dims(inputs, axis=1) @ self.weight
         return tf.concat([tf.cos(f), tf.sin(f)], axis=-1)
 
